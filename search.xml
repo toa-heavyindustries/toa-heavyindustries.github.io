@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>在hexo中插入Echarts图表</title>
+      <title>在Hexo中插入Echarts图表</title>
       <link href="2021/02/01/%E5%9C%A8hexo%E4%B8%AD%E6%8F%92%E5%85%A5Echarts%E5%9B%BE%E8%A1%A8/"/>
       <url>2021/02/01/%E5%9C%A8hexo%E4%B8%AD%E6%8F%92%E5%85%A5Echarts%E5%9B%BE%E8%A1%A8/</url>
       
-        <content type="html"><![CDATA[<div id="test3" style="width:100%;height:500px;"></div><script type="text/javascript"src="https://cdn.jsdelivr.net/npm/echarts@5.0.1/dist/echarts.min.js"></script><script type="text/javascript"src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script><script type="text/javascript">var  myChart3 = echarts.init(document.getElementById("test3"));//div元素节点的对象option3 = {    xAxis: {        type: 'category',        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']    },    yAxis: {        type: 'value'    },    series: [{        data: [120, 200, 150, 80, 70, 110, 130],        type: 'bar'    }]};myChart3.setOption(option3);window.οnresize=function(){      myChart3.resize(); } </script><div id="test4" style="width:100%;height:500px;"></div><script type="text/javascript"src="https://cdn.jsdelivr.net/npm/echarts@5.0.1/dist/echarts.min.js"></script><script type="text/javascript"src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script><script type="text/javascript">var  myChart4 = echarts.init(document.getElementById("test4"));//div元素节点的对象option4 = {    xAxis: {        type: 'category',        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']    },    yAxis: {        type: 'value'    },    series: [{        data: [120, 200, 150, 80, 70, 110, 130],        type: 'bar'    }]};myChart4.setOption(option4);window.οnresize=function(){      myChart4.resize(); } </script>]]></content>
+        <content type="html"><![CDATA[<p>有时我们需要在文章中插入一些图表📈，最简单的方法当然是在本地画好然后上传并插入markdown。但是</p><div id="test3" style="width:100%;height:500px;"></div><script type="text/javascript"src="https://cdn.jsdelivr.net/npm/echarts@5.0.1/dist/echarts.min.js"></script><script type="text/javascript"src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script><script type="text/javascript">var  myChart3 = echarts.init(document.getElementById("test3"));//div元素节点的对象option3 = {    xAxis: {        type: 'category',        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']    },    yAxis: {        type: 'value'    },    series: [{        data: [120, 200, 150, 80, 70, 110, 130],        type: 'bar'    }]};myChart3.setOption(option3);window.οnresize=function(){      myChart3.resize(); } </script><div id="test4" style="width:100%;height:500px;"></div><script type="text/javascript"src="https://cdn.jsdelivr.net/npm/echarts@5.0.1/dist/echarts.min.js"></script><script type="text/javascript"src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script><script type="text/javascript">var  myChart4 = echarts.init(document.getElementById("test4"));//div元素节点的对象option4 = {    xAxis: {        type: 'category',        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']    },    yAxis: {        type: 'value'    },    series: [{        data: [120, 200, 150, 80, 70, 110, 130],        type: 'bar'    }]};myChart4.setOption(option4);window.οnresize=function(){      myChart4.resize(); } </script>]]></content>
       
       
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
       
     </entry>
     
